@@ -1,0 +1,431 @@
+@font-face {
+    font-family: tindfont;
+    src: url("0d4ec08dc6b105c09ea2f98b104ee5be.woff2");
+}
+
+body {
+    font-family: tindfont;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.contents {
+    position: absolute;
+    width: 100%;
+    top: 250px;
+}
+
+.hero_h1 {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.menu {
+    position: absolute !important;
+    z-index: 5;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background: transparent !important;
+    width: 100%;
+}
+
+
+.menu li {
+    padding: 0px 2px;
+
+}
+
+.menu li a:hover {
+    color: rgba(255, 69, 100, 0.986) !important;
+    text-decoration: dashed;
+
+}
+
+
+.dropdown-menu {
+    background: transparent !important;
+    border: none !important;
+}
+
+.dropdown-menu li a {
+    color: white;
+}
+
+.dropdown-menu a:hover {
+    background: transparent !important;
+}
+
+
+.logo_texts {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.logo_text,
+.language {
+    text-decoration: none;
+    color: white;
+}
+
+.login_button {
+    background-color: white;
+    color: rgb(82, 79, 79);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 5px 30px;
+    font-weight: bold;
+    border: none;
+}
+
+#mynavbar {
+    margin-left: 50px;
+}
+
+.login_button:hover {
+    opacity: 90%;
+}
+
+#header_a {
+    color: white;
+}
+
+
+
+.account a {
+    padding: 0px 20px;
+
+}
+
+.accountbtn {
+    font-size: 24px;
+    font-weight: 500;
+    background-image: linear-gradient(red, yellow);
+    color: white;
+    border-radius: 30px;
+    padding: 5px 20px;
+    border: none;
+    margin-left: 500px;
+
+}
+
+.accountbtn:hover {
+    opacity: 90%;
+}
+
+.mainpageimg {
+    position: relative;
+}
+
+.mainpageimg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.mainpageimg::before {
+    content: "";
+    position: absolute;
+    background: rgba(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.other_contents {
+    margin-top: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: self-start;
+    gap: 80px;
+
+}
+
+.other_contents h4 {
+    top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.other_contents h6 {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 17px;
+}
+
+.other_contents a {
+    text-decoration: none;
+    color: #080808;
+}
+
+.other_contents a:hover {
+    color: rgb(197, 55, 55);
+}
+
+
+.social_icons i {
+    padding: 0px 2px;
+}
+
+.more_content {
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.more_content h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img1 {
+    width: 150px;
+    height: 50px;
+}
+
+.img2 {
+    width: 175px;
+    height: 75px;
+}
+
+.footer1 a {
+    text-decoration: none;
+    color: #080808;
+
+}
+
+.footer1 a:hover {
+    color: rgb(197, 55, 55);
+}
+
+.footpara {
+    padding-top: 15px;
+}
+
+.footpara .para1,
+.para2 {
+    font-size: 14px;
+    cursor: default;
+}
+
+.footer1 p {
+    font-size: 14px;
+}
+
+/* .footer1 .part2 {
+    padding-left: 280px;
+} */
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+body {
+    background: #ccc;
+}
+
+.main {
+    font-family: Arial;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+h3 {
+    background: #fff;
+    color: #3498db;
+    font-size: 30px;
+    line-height: 100px;
+    margin: 10px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+
+
+.logoimg {
+    width: 90%;
+    height: 50px;
+}
+
+.logos {
+    display: flex;
+
+}
+
+.mobile_header {
+    display: none;
+}
+
+.slider1 {
+    border: 1px solid rgb(121, 121, 121);
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 70% !important;
+    box-shadow: 1px 1px .5px gray;
+    margin: 10px 20px;
+}
+
+.carousel {
+    padding-top: 20px;
+}
+
+.account1 {
+    visibility: hidden;
+}
+
+.copyrights {
+    text-align: right;
+}
+
+@media screen and (min-width:300px) and (max-width:600px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .desktop_header {
+        display: none;
+    }
+
+    .account1 {
+        visibility: visible;
+    }
+
+    .hero_h1 {
+        font-size: 35px;
+
+    }
+
+    .accountbtn {
+        font-size: 18px;
+        font-weight: 500;
+        width: 175px;
+        padding: 10px 5px;
+        margin-top: 10px;
+        margin-left: 60px;
+
+    }
+
+    .mobile_header {
+        display: block;
+    }
+
+    .sidebar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: transparent !important;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .hamdiv {
+        padding: 2px 2px;
+        margin-left: 3px;
+    }
+
+    .logoimg {
+        width: 100%;
+        height: 30px;
+        margin-top: 15px;
+        padding-left: 25px;
+    }
+
+    .logo_texts {
+        padding-top: 10px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .carousel {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .appleimg {
+        display: none;
+    }
+
+    .img2 {
+        width: 125px;
+        height: 50px;
+    }
+
+    /* .footer1 .part2 {
+        padding-left: 0px;
+        flex: none;
+
+    }
+
+    .part1,
+    .part2 {
+        margin-left: 20px;
+        font-weight: 500
+    } */
+
+    .other_contents {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+
+
+    #demos {
+        background-color: #080808;
+    }
+
+    .account {
+        padding: 0px 80px;
+        padding-bottom: 50px;
+    }
+
+    .account div {
+        margin: 10px 0px;
+    }
+
+    .login_button2 {
+        background-image: linear-gradient(red, yellow);
+        border-radius: 20px;
+        width: 180px;
+        color: white;
+        padding: 5px 0px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .account a {
+        padding-left: 50px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .btn-close {
+
+        background-color: #fff !important;
+    }
+
+    .login_button {
+        background-color: none;
+        background: transparent;
+        color: white;
+        border: 3px solid white;
+        margin-left: 55px;
+        margin-top: 10px;
+        padding-left: 20px;
+        width: 180px;
+    }
+
+    .copyrights {
+        text-align: left;
+    }
+}
